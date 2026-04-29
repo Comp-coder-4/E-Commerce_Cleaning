@@ -28,18 +28,18 @@ Key Excel techniques/functions used:
 
 Issues identified:
 1. Data Type
-    * Order_date is text
-    * Quantity is text
-    * Price is text
+    - Order_date is text
+    - Quantity is text
+    - Price is text
 2. Invalid data
-    * Date fields and numeric fields have text values
-    * Numeric fields have negative values and unwanted symbols
+    - Date fields and numeric fields have text values
+    - Numeric fields have negative values and unwanted symbols
 3. Inconsistency
-    * Inconsistent formats in order_date field ("Jan 5 2023, mm,dd,yyyy, m,dd,yyyy, mm,dd,yyyy 00:00:00)
-    * Inconsistent letter casing:
-    * Product field: "Shoes" and "shoes"
-    * Category field: "electronic", "Electronic", "ELECTRONICS"
-    * Mispellings: Category has "Electronicss"
+    - Inconsistent formats in order_date field ("Jan 5 2023, mm,dd,yyyy, m,dd,yyyy, mm,dd,yyyy 00:00:00)
+    - Inconsistent letter casing:
+      * Product field: "Shoes" and "shoes"
+      * Category field: "electronic", "Electronic", "ELECTRONICS"
+    - Mispellings: Category has "Electronicss"
 
     
 ### Step 2. 
