@@ -18,9 +18,10 @@ Key Excel techniques/functions used:
 
 
 ## File Structure
-1. **messy_ecommerce_sales.xlsx** 
-2. **Imgs folder** - screenshots
-3. **raw_data.csv** - raw data
+1. **messy_ecommerce_sales.xlsx**
+   * Columns used to clean data are orange
+3. **Imgs folder** - screenshots
+4. **raw_data.csv** - raw data
 
 
 ## Workflow
@@ -37,12 +38,18 @@ Issues identified:
 3. Inconsistency
     - Inconsistent formats in order_date field ("Jan 5 2023, mm,dd,yyyy, m,dd,yyyy, mm,dd,yyyy 00:00:00)
     - Inconsistent letter casing:
-      * Product field: "Shoes" and "shoes"
-      * Category field: "electronic", "Electronic", "ELECTRONICS"
+      - Product field: "Shoes" and "shoes"
+      - Category field: "electronic", "Electronic", "ELECTRONICS"
     - Mispellings: Category has "Electronicss"
-
+4. Missing values:
+   - Category has "nan" values and blanks
+   - Quantity and Price have blanks
+   - Total has nulls
     
-### Step 2. 
+### Step 2. Duplicates
+1. Conditional formatting:
+   - ID has duplicates
+2. Concat column
 
 
 ### Step 3.
