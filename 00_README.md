@@ -52,10 +52,10 @@ Issues identified:
 2. Created a CONCAT column
    - concatenates all columns to give each row unique value
 
-If ID was duplicated and if both of their CONCAT column values were the same, that meant the entire row was a duplicate. See Imgs/Removing Duplicates/Finding duplicate rows.png. In this screenshot
-    - ID 146 was duplicated 
-    - ID 142 is not duplicated
-    - One row for ID 142 had incorrect value in Total column (indicated by yellow box)
+If ID was duplicated and if both of their CONCAT column values were the same, that meant the entire row was a duplicate. See Imgs/Removing Duplicates/Finding duplicate rows.png. In this screenshot:
+* ID 146 was duplicated 
+* ID 142 is not duplicated
+* One row for ID 142 had incorrect value in Total column (indicated by yellow box)
 
 
 ## Data Source
