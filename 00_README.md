@@ -58,16 +58,5 @@ If ID was duplicated and if both of their CONCAT column values were the same, th
     - One row for ID 142 had incorrect value in Total column (indicated by yellow box)
 
 
-### Step 3.
-
-
-
-### Step 4.
-
-
-
-### Step 5. 
-
-
 ## Data Source
 https://www.kaggle.com/datasets/kandeelai22/messy-e-commerce-sales-dataset
