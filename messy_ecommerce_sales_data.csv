@@ -4,15 +4,15 @@ ID, Customer_Name,Order_ID,Order_Date,Product, Category,Quantity,Price,Payment_M
 163,Customer_163,ORD-24378,01/05/2023 ,Smartwatch,Electronics,3,235.26,Cash on Delivery,Shipped,705.78,163Customer_163ORD-2437845047SmartwatchElectronics3235.26Cash on DeliveryShipped705.78
 115,Customer_115,ORD-72778,01/10/2025 ,Fiction,Books,2,796.84,Cash on Delivery,Returned,1115.576,115Customer_115ORD-7277845931FictionBooks2796.84Cash on DeliveryReturned1115.576
 106,Customer_106,ORD-25885,02/02/2025 ,Blender,Home,,978.63,Bank Transfer,Processing,,106Customer_106ORD-2588545690BlenderHome978.63Bank TransferProcessing
-135,Customer_135,ORD-33656,02/09/2025 ,Smartwatch,electronics,4,446.19,Cash on Delivery,Cancelled,1784.76,135Customer_135ORD-3365645902Smartwatchelectronics4446.19Cash on DeliveryCancelled1784.76
+135,Customer_135,ORD-33656,02/09/2025 ,Smartwatch,Electronics,4,446.19,Cash on Delivery,Cancelled,1784.76,135Customer_135ORD-3365645902Smartwatchelectronics4446.19Cash on DeliveryCancelled1784.76
 125,Customer_125,ORD-23202,02/09/2025 ,Comics,Books,4,765.69,PayPal,Shipped,3062.76,125Customer_125ORD-2320245902ComicsBooks4765.69PayPalShipped3062.76
 139,Customer_139,ORD-38418,02/09/2025 ,Smartphone,Electronics,2,681.38,Credit Card,Cancelled,1362.76,139Customer_139ORD-3841845902SmartphoneElectronics2681.38Credit CardCancelled1362.76
 164,Customer_164,ORD-23010,02/09/2025 ,Tennis Racket,Sports,,587.64,Credit Card,Returned,,164Customer_164ORD-2301045902Tennis RacketSports587.64Credit CardReturned
 194,Customer_194,ORD-69764,02/10/2025 ,Lamp,Home,5,944.54,Cash on Delivery,Returned,4722.7,194Customer_194ORD-6976445932LampHome5944.54Cash on DeliveryReturned4722.7
-117,Customer_117,ORD-72751,02/12/2025 ,Blender,electronic,-2,10000,Cash on Delivery,Processing,-20000,117Customer_117ORD-7275145993Blenderelectronic-210000Cash on DeliveryProcessing-20000
+117,Customer_117,ORD-72751,02/12/2025 ,Blender,Electronics,-2,10000,Cash on Delivery,Processing,-20000,117Customer_117ORD-7275145993Blenderelectronic-210000Cash on DeliveryProcessing-20000
 112,Customer_112,ORD-80867,03/02/2025 ,Shoes,Clothing,4,752.13,Bank Transfer,Delivered,3008.52,112Customer_112ORD-8086745691ShoesClothing4752.13Bank TransferDelivered3008.52
 183,Customer_183,ORD-20916,03/10/2025 ,Shoes,Clothing,5,,Cash on Delivery,Returned,,183Customer_183ORD-2091645933ShoesClothing5Cash on DeliveryReturned
-132,Customer_132,ORD-40186,04/02/2025 ,Yoga Mat,ELECTRONICS,1,266.7,PayPal,Delivered,266.7,132Customer_132ORD-4018645692Yoga MatELECTRONICS1266.7PayPalDelivered266.7
+132,Customer_132,ORD-40186,04/02/2025 ,Yoga Mat,Electronics,1,266.7,PayPal,Delivered,266.7,132Customer_132ORD-4018645692Yoga MatELECTRONICS1266.7PayPalDelivered266.7
 158,Customer_158,ORD-35817,04/05/2025 ,Smartwatch,Electronics,1,933.58,Cash on Delivery,Shipped,933.58,158Customer_158ORD-3581745781SmartwatchElectronics1933.58Cash on DeliveryShipped933.58
 145,Customer_145,ORD-75314,05/01/2023 ,Laptop,Electronics,2,860.99,Bank Transfer,Returned,1721.98,145Customer_145ORD-7531444931LaptopElectronics2860.99Bank TransferReturned1721.98
 155,Customer_155,ORD-20182,05/01/2025 ,Shoes,Clothing,1,40.95,PayPal,Returned,40.95,155Customer_155ORD-2018245662shoesClothing140.95PayPalReturned40.95
@@ -23,9 +23,9 @@ ID, Customer_Name,Order_ID,Order_Date,Product, Category,Quantity,Price,Payment_M
 131,Customer_131,ORD-91396,06/11/2025 ,Lamp,Home,5,616.63,PayPal,Shipped,3083.15,131Customer_131ORD-9139645967LampHome5616.63PayPalShipped3083.15
 136,Customer_136,ORD-20985,06/12/2025 ,Headphones,,1,696.71,Credit Card,Delivered,696.71,136Customer_136ORD-2098545997Headphones1696.71Credit CardDelivered696.71
 151,Customer_151,ORD-56552,07/01/2025 ,Comics,Books,2,457.16,PayPal,Processing,640.024,151Customer_151ORD-5655245664ComicsBooks2457.16PayPalProcessing640.024
-166,Customer_166,ORD-97756,07/03/2025 ,T-shirt,electronics,2,569.38,Cash on Delivery,Shipped,1138.76,166Customer_166ORD-9775645723T-shirtelectronics2569.38Cash on DeliveryShipped1138.76
+166,Customer_166,ORD-97756,07/03/2025 ,T-shirt,Electronics,2,569.38,Cash on Delivery,Shipped,1138.76,166Customer_166ORD-9775645723T-shirtelectronics2569.38Cash on DeliveryShipped1138.76
 101,Customer_101,ORD-35783,07/05/2025 ,Smartphone,Electronics,2,abd,PayPal,Processing,,101Customer_101ORD-3578345784SmartphoneElectronics2abdPayPalProcessing
-146,Customer_146,ORD-32755,07/09/2025 ,Basketball,electronic,2,705.42,Bank Transfer,Processing,1410.84,146Customer_146ORD-3275545907Basketballelectronic2705.42Bank TransferProcessing1410.84
+146,Customer_146,ORD-32755,07/09/2025 ,Basketball,Electronics,2,705.42,Bank Transfer,Processing,1410.84,146Customer_146ORD-3275545907Basketballelectronic2705.42Bank TransferProcessing1410.84
 143,Customer_143,ORD-14329,07/11/2025 ,T-shirt,Clothing,5,826.77,Bank Transfer,Cancelled,4133.85,143Customer_143ORD-1432945968T-shirtClothing5826.77Bank TransferCancelled4133.85
 182,Customer_182,ORD-79672,08/03/2025 ,Shoes,,4,538.35,PayPal,Processing,2153.4,182Customer_182ORD-7967245724Shoes4538.35PayPalProcessing2153.4
 167,Customer_167,ORD-30329,08/07/2025 ,Basketball,Sports,,593.93,Cash on Delivery,Processing,,167Customer_167ORD-3032945846BasketballSports593.93Cash on DeliveryProcessing
@@ -37,7 +37,7 @@ ID, Customer_Name,Order_ID,Order_Date,Product, Category,Quantity,Price,Payment_M
 170,Customer_170,ORD-21530,10/03/2025 ,Jeans,Clothing,5,741.63,Bank Transfer,Processing,3708.15,170Customer_170ORD-2153045726JeansClothing5741.63Bank TransferProcessing3708.15
 134,Customer_134,ORD-16585,10/04/2025 ,T-shirt,Clothing,-5,591.53,PayPal,Shipped,-2957.65,134Customer_134ORD-1658545757T-shirtClothing-5591.53PayPalShipped-2957.65
 186,Customer_186,ORD-90569,10/06/2025 ,Laptop,Electronics,1,365.34,Bank Transfer,Delivered,365.34,186Customer_186ORD-9056945818LaptopElectronics1365.34Bank TransferDelivered365.34
-123,Customer_123,ORD-11314,10/06/2025 ,Vacuum,electronic,3,615.91,Cash on Delivery,Cancelled,1847.73,123Customer_123ORD-1131445818Vacuumelectronic3615.91Cash on DeliveryCancelled1847.73
+123,Customer_123,ORD-11314,10/06/2025 ,Vacuum,Electronics,3,615.91,Cash on Delivery,Cancelled,1847.73,123Customer_123ORD-1131445818Vacuumelectronic3615.91Cash on DeliveryCancelled1847.73
 173,Customer_173,ORD-42171,10/11/2025 ,Lamp,Home,5,351.89,Credit Card,Shipped,1759.45,173Customer_173ORD-4217145971LampHome5351.89Credit CardShipped1759.45
 121,Customer_121,ORD-80067,10/11/2025 ,Basketball,Sports,4,523.01,Credit Card,Delivered,2092.04,121Customer_121ORD-8006745971BasketballSports4523.01Credit CardDelivered2092.04
 104,Customer_104,ORD-93614,10/20/2025,Biography,Books,1,552.51,Cash on Delivery,Processing,552.51,104Customer_104ORD-9361410/20/2025BiographyBooks1552.51Cash on DeliveryProcessing552.51
@@ -48,7 +48,7 @@ ID, Customer_Name,Order_ID,Order_Date,Product, Category,Quantity,Price,Payment_M
 168,Customer_168,ORD-53430,11/04/2025 ,Biography,Books,2,141.49,PayPal,Cancelled,282.98,168Customer_168ORD-5343045758BiographyBooks2141.49PayPalCancelled282.98
 157,Customer_157,ORD-34407,11/06/2025 ,Jacket,Clothing,4,275.1,Bank Transfer,Processing,1100.4,157Customer_157ORD-3440745819JacketClothing4275.1Bank TransferProcessing1100.4
 165,Customer_165,ORD-55695,11/08/2024 ,Shoes,Clothing,2,443.13,Credit Card,Delivered,886.26,165Customer_165ORD-5569545515ShoesClothing2443.13Credit CardDelivered886.26
-128,Customer_128,ORD-12270,11/10/2024 ,Lamp,electronics,3,898.69,Bank Transfer,Delivered,2696.07,128Customer_128ORD-1227045576Lampelectronics3898.69Bank TransferDelivered2696.07
+128,Customer_128,ORD-12270,11/10/2024 ,Lamp,Electronics,3,898.69,Bank Transfer,Delivered,2696.07,128Customer_128ORD-1227045576Lampelectronics3898.69Bank TransferDelivered2696.07
 172,Customer_172,ORD-48008,11/18/2024,Comics,Books,2,942.76,Bank Transfer,Returned,1885.52,172Customer_172ORD-4800811/18/2024ComicsBooks2942.76Bank TransferReturned1885.52
 187,Customer_187,ORD-41292,11/19/2024,Smartphone,Electronics,3,882.96,Bank Transfer,Returned,2648.88,187Customer_187ORD-4129211/19/2024SmartphoneElectronics3882.96Bank TransferReturned2648.88
 188,Customer_188,ORD-58590,11/19/2024,Microwave,Home,5,504.05,Cash on Delivery,Shipped,2520.25,188Customer_188ORD-5859011/19/2024MicrowaveHome5504.05Cash on DeliveryShipped2520.25
@@ -56,13 +56,13 @@ ID, Customer_Name,Order_ID,Order_Date,Product, Category,Quantity,Price,Payment_M
 100,Customer_100,ORD-41285,11/22/2024,Blender,Home,3,38,Cash on Delivery,Shipped,114,100Customer_100ORD-4128511/22/2024BlenderHome338Cash on DeliveryShipped114
 150,Customer_150,ORD-76902,11/27/2024,Yoga Mat,Sports,1,206.19,Credit Card,Returned,206.19,150Customer_150ORD-7690211/27/2024Yoga MatSports1206.19Credit CardReturned206.19
 156,Customer_156,ORD-34679,11/28/2024,Jeans,Clothing,2,,Bank Transfer,Shipped,,156Customer_156ORD-3467911/28/2024JeansClothing2Bank TransferShipped
-133,Customer_133,ORD-68182,12/05/2024 ,Biography,nan,5,343.24,Credit Card,Shipped,1716.2,133Customer_133ORD-6818245424Biographynan5343.24Credit CardShipped1716.2
+133,Customer_133,ORD-68182,12/05/2024 ,Biography,,5,343.24,Credit Card,Shipped,1716.2,133Customer_133ORD-6818245424Biographynan5343.24Credit CardShipped1716.2
 171,Customer_171,ORD-99790,12/06/2024 ,Shoes,Clothing,3,688.68,PayPal,Processing,2066.04,171Customer_171ORD-9979045455ShoesClothing3688.68PayPalProcessing2066.04
 161,Customer_161,ORD-27653,12/15/2024,Science,Books,4,209.32,Bank Transfer,Shipped,837.28,161Customer_161ORD-2765312/15/2024ScienceBooks4209.32Bank TransferShipped837.28
 119,Customer_119,ORD-76016,12/19/2024,Basketball,Sports,4,438.19,Cash on Delivery,Processing,1752.76,119Customer_119ORD-7601612/19/2024BasketballSports4438.19Cash on DeliveryProcessing1752.76
 196,Customer_196,ORD-78384,12/23/2024,Vacuum,Home,,abd,PayPal,Delivered,,196Customer_196ORD-7838412/23/2024VacuumHomeabdPayPalDelivered
 102,Customer_102,ORD-84355,12/23/2024,Tennis Racket,Sports,1,389.05,PayPal,Delivered,389.05,102Customer_102ORD-8435512/23/2024Tennis RacketSports1389.05PayPalDelivered389.05
-181,Customer_181,ORD-54481,12/29/2024,Smartphone,nan,1,266.48,Cash on Delivery,Cancelled,266.48,181Customer_181ORD-5448112/29/2024Smartphonenan1266.48Cash on DeliveryCancelled266.48
+181,Customer_181,ORD-54481,12/29/2024,Smartphone,,1,266.48,Cash on Delivery,Cancelled,266.48,181Customer_181ORD-5448112/29/2024Smartphonenan1266.48Cash on DeliveryCancelled266.48
 141,Customer_141,ORD-45059,02/13/2025,Fiction,Books,3,546.04,Cash on Delivery,Returned,1638.12,141Customer_141ORD-450592/13/2025FictionBooks3546.04Cash on DeliveryReturned1638.12
 184,Customer_184,ORD-67799,02/15/2025,Jeans,,4,101.19,Bank Transfer,Processing,404.76,184Customer_184ORD-677992/15/2025Jeans4101.19Bank TransferProcessing404.76
 154,Customer_154,ORD-95990,02/21/2025,Blender,Home,5,789.64,Cash on Delivery,Cancelled,3948.2,154Customer_154ORD-959902/21/2025BlenderHome5789.64Cash on DeliveryCancelled3948.2
@@ -77,7 +77,7 @@ ID, Customer_Name,Order_ID,Order_Date,Product, Category,Quantity,Price,Payment_M
 162,Customer_162,ORD-27743,05/19/2025,Blender,Home,2,155.76,Credit Card,Returned,311.52,162Customer_162ORD-277435/19/2025BlenderHome2155.76Credit CardReturned311.52
 118,Customer_118,ORD-96061,05/31/2025,Science,Books,5,247.82,PayPal,Processing,1239.1,118Customer_118ORD-960615/31/2025ScienceBooks5247.82PayPalProcessing1239.1
 124,Customer_124,ORD-46136,05/31/2025,Comics,Books,5,,PayPal,Cancelled,,124Customer_124ORD-461365/31/2025ComicsBooks5PayPalCancelled
-120,Customer_120,ORD-14659,06/13/2025,Yoga Mat,ELECTRONICS,5,300$,Credit Card,Cancelled,,120Customer_120ORD-146596/13/2025Yoga MatELECTRONICS5300$Credit CardCancelled
+120,Customer_120,ORD-14659,06/13/2025,Yoga Mat,Electronics,5,300$,Credit Card,Cancelled,,120Customer_120ORD-146596/13/2025Yoga MatELECTRONICS5300$Credit CardCancelled
 195,Customer_195,ORD-82876,06/19/2025,Biography,Books,5,817.46,Cash on Delivery,Returned,4087.3,195Customer_195ORD-828766/19/2025BiographyBooks5817.46Cash on DeliveryReturned4087.3
 129,Customer_129,ORD-48863,06/22/2025,Science,Books,4,736.71,Bank Transfer,Returned,2946.84,129Customer_129ORD-488636/22/2025ScienceBooks4736.71Bank TransferReturned2946.84
 197,Customer_197,ORD-79139,06/23/2025,Blender,Home,1,160.16,PayPal,Cancelled,160.16,197Customer_197ORD-791396/23/2025BlenderHome1160.16PayPalCancelled160.16
@@ -94,8 +94,8 @@ ID, Customer_Name,Order_ID,Order_Date,Product, Category,Quantity,Price,Payment_M
 189,Customer_189,ORD-30627,08/14/2025,Lamp,Home,1,814.68,Cash on Delivery,Returned,814.68,189Customer_189ORD-306278/14/2025LampHome1814.68Cash on DeliveryReturned814.68
 130,Customer_130,ORD-34007,08/15/2025,Tennis Racket,Sports,2,,Bank Transfer,Processing,,130Customer_130ORD-340078/15/2025Tennis RacketSports2Bank TransferProcessing
 178,Customer_178,ORD-89906,09/18/2025,Tennis Racket,Sports,3,472.14,PayPal,Returned,1416.42,178Customer_178ORD-899069/18/2025Tennis RacketSports3472.14PayPalReturned1416.42
-174,Customer_174,ORD-16766,09/20/2025,Microwave,ELECTRONICS,4,187.48,Credit Card,Returned,749.92,174Customer_174ORD-167669/20/2025MicrowaveELECTRONICS4187.48Credit CardReturned749.92
+174,Customer_174,ORD-16766,09/20/2025,Microwave,Electronics,4,187.48,Credit Card,Returned,749.92,174Customer_174ORD-167669/20/2025MicrowaveELECTRONICS4187.48Credit CardReturned749.92
 152,Customer_152,ORD-72869,09/22/2025,Lamp,Home,3,233.11,PayPal,Returned,699.33,152Customer_152ORD-728699/22/2025LampHome3233.11PayPalReturned699.33
-110,Customer_110,ORD-61020,09/26/2025,Basketball,sports,5,four hundred,Cash on Delivery,Cancelled,,110Customer_110ORD-610209/26/2025Basketballsports5four hundredCash on DeliveryCancelled
-114,Customer_114,ORD-77417,01/05/2023,Smartphone,Electronics,2,413.13,Cash on Delivery,Shipped,826.26,114Customer_114ORD-77417Jan 5 2023SmartphoneElectronics2413.13Cash on DeliveryShipped826.26
+110,Customer_110,ORD-61020,09/26/2025,Basketball,Sports,5,four hundred,Cash on Delivery,Cancelled,,110Customer_110ORD-610209/26/2025Basketballsports5four hundredCash on DeliveryCancelled
+114,Customer_114,ORD-77417,01/05/2023 ,Smartphone,Electronics,2,413.13,Cash on Delivery,Shipped,826.26,114Customer_114ORD-77417Jan 5 2023SmartphoneElectronics2413.13Cash on DeliveryShipped826.26
 192,Customer_192,ORD-35144,,Jacket,Clothing,4a,203.63,Credit Card,Returned,,192Customer_192ORD-35144abcJacketClothing4a203.63Credit CardReturned
