@@ -1,6 +1,6 @@
 # <ins>E-Commerce Transactions Cleaning Project</ins> :computer:
 
-**This Project is a work in progress. The following is the cleaning work done this far :smile:**
+**This Project is a work in progress. The following is the cleaning work done this far 😃:**
 
 The dataset looks at E-Commerce transactions across 8 categories of products. It gives details such as....... and the amount spent in each transaction.
 
