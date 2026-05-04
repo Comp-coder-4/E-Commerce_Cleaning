@@ -78,8 +78,10 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
    3. "nan" &rarr; "null"
 
 #### <ins>Numeric Columns</ins>
+
+**Screenshots: Img/Replacing Values/Numeric Columns**
+
 #### Changes made for invalid values in numeric columns:
-**(Screenshots: Img/Replacing Values/Numeric Columns)**
 
 ##### Exploring the table further revealed the following:
 1. **Problem** Prices were unreasonably high
