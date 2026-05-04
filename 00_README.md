@@ -26,7 +26,7 @@ Key Excel techniques/functions used:
 
 
 ## Workflow
-### Step 1. Profile the data with Excel Power Query
+### <ins>Step 1. Profile the data with Excel Power Query</ins>
 
 Issues identified:
 1. Data Type
@@ -47,7 +47,7 @@ Issues identified:
    - Quantity and Price have blanks
    - Total has nulls
     
-### Step 2. Duplicates
+### <ins>Step 2. Duplicates</ins>
 1. Conditional formatting:
    - ID has duplicates
 2. Created a CONCAT column
@@ -58,8 +58,8 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
 * ID 142 is not duplicated
 * One row for ID 142 had incorrect value in Total column (indicated by yellow box)
 
-### Step 3. Find & Replace Values
-#### Text Columns
+### <ins>Step 3. Find & Replace Values</ins>
+#### <ins>Text Columns</ins>
 #### Changes made for invalid values in text columns:
 **(Screenshots: Img/Replacing Values/Text Columns)**
 1. Order_date 
@@ -77,7 +77,7 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
    2. "sports" --> "Sports"
    3. "nan" --> "null"
 
-#### Numeric Columns
+#### <ins>Numeric Columns</ins>
 #### Changes made for invalid values in numeric columns:
 **(Screenshots: Img/Replacing Values/Numeric Columns)**
 
