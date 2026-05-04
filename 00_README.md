@@ -79,19 +79,23 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
 
 #### Changes made for invalid values in numeric columns:
 **(Screenshots: Img/Replacing Values/Numeric Columns)**
-Exploring the table further revealed the following:
+
+##### Exploring the table further revealed the following:
 1. **Problem** Prices were unreasonably high
   - E.g. Biography book price was 552.
   - In reality, wouldn't price wouldn't be more than 20
-  - **Solution** A variety of categories of products sold. Likely not selling expensive products (e.g. expensive sport shop). Each product has different prices so cannot replace price values from same table. Therefore, for this analysis, I divide Price by 10 and find Price Per Unit based on this value
+  - **Solution** A variety of categories of products sold. Likely not selling expensive products (e.g. expensive sport shop). Each product has different prices so cannot replace price values from same table. Therefore, for this analysis, I divide Price by 10 and find Price Per Unit based on this value (**Imgs/.../Prices**)
 2. **Problem** Some products had wrong category
     - E.g. ID = 166, product = t-shirt, category = "electronics"
     - **Solution** 
-      - Use pivot table to find categories each product was in (**Imgs/.../Pivot table (product,categories).png**)
+      - Use pivot table to find categories each product was in (**Imgs/.../Category/Pivot table (product,categories).png**)
       - Identify which products were in wrong categories:
         - Wrong products in Electronics: Basketball, blender, lamp, microwave, t-shirt, vacuum, yoga mat
-      - In Excel main table, make flag column where Category = "Electronics" and product is either "Basketball", "Blender", "Lamp", "Microwave", "T-shirt", "Vacuum" or "Yoga Mat" (**See Imgs/.../Wrong Category FLAG.png**)
-      - Write Excel IF function to make correct Category Column (**See Imgs/.../Correct Category Column.png**)
+      - In Excel main table, make flag column where Category = "Electronics" and product is either "Basketball", "Blender", "Lamp", "Microwave", "T-shirt", "Vacuum" or "Yoga Mat" (**Imgs/.../Category/Wrong Category FLAG.png**)
+      - Write Excel IF function to make correct Category Column (**Imgs/.../Category/Correct Category Column.png**)
+     
+#### Changes made for invalid values in numeric columns:
+
 
 
 ## Data Source
