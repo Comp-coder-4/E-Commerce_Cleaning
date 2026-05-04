@@ -63,19 +63,19 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
 #### Changes made for invalid values in text columns:
 **(Screenshots: Img/Replacing Values/Text Columns)**
 1. Order_date 
-   1. "00:00:00" --> "" (empty string)
-  2. single-digit months (**<ins>m</ins>**/dd/yyyy) --> 2-digit months (**<ins>mm</ins>**/dd/yyyy)
+   1. "00:00:00" &rarr; "" (empty string)
+  2. single-digit months (**<ins>m</ins>**/dd/yyyy) &rarr; 2-digit months (**<ins>mm</ins>**/dd/yyyy)
      1. Parse order_date into month and day/year columns
-     2. Replace m --> mm values in month column
+     2. Replace m &rarr; mm values in month column
      3. Merge month and day/year columns
-  3. "abc/" --> "" (empty string)
-  4. "Jan 5 2023" --> "01/05/2023"
+  3. "abc/" &rarr; "" (empty string)
+  4. "Jan 5 2023" &rarr; "01/05/2023"
 2. Product
-   1. "shoes" --> "Shoes"
+   1. "shoes" &rarr; "Shoes"
 3. Category
-   1. "electronic", "Electronicss", "ELECTRONICS" --> "Electronics"
-   2. "sports" --> "Sports"
-   3. "nan" --> "null"
+   1. "electronic", "Electronicss", "ELECTRONICS" &rarr; "Electronics"
+   2. "sports" &rarr; "Sports"
+   3. "nan" &rarr; "null"
 
 #### <ins>Numeric Columns</ins>
 #### Changes made for invalid values in numeric columns:
