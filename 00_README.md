@@ -64,7 +64,7 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
 **(Screenshots: Img/Replacing Values/Text Columns)**
 1. Order_date 
    1. "00:00:00" --> "" (empty string)
-  2. single-digit months (**m**/dd/yyyy) --> 2-digit months (**mm**/dd/yyyy)
+  2. single-digit months (**<ins>m</ins>**/dd/yyyy) --> 2-digit months (**<ins>mm</ins>**/dd/yyyy)
      1. Parse order_date into month and day/year columns
      2. Replace m --> mm values in month column
      3. Merge month and day/year columns
