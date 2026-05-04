@@ -15,6 +15,7 @@ The goal was to find quality issues with the dataset and clean it to improve dat
 Tool Used: Excel
 
 Key Excel techniques/functions used:
+- Logical functions (IF, AND)
 
 
 ## File Structure
@@ -52,10 +53,33 @@ Issues identified:
 2. Created a CONCAT column
    - concatenates all columns to give each row unique value
 
-If ID was duplicated and if both of their CONCAT column values were the same, that meant the entire row was a duplicate. See Imgs/Removing Duplicates/Finding duplicate rows.png. In this screenshot:
+If ID was duplicated **AND if both** of their **CONCAT column values were the same**, that meant the entire row was a duplicate. See Imgs/Removing Duplicates/Finding duplicate rows.png. In this screenshot:
 * ID 146 was duplicated 
 * ID 142 is not duplicated
 * One row for ID 142 had incorrect value in Total column (indicated by yellow box)
+
+### Step 3. Find & Replace Values
+
+#### Changes made for invalid values in text columns:
+(See Img/Replacing Values/Text Columns)
+1. Order_date 
+   1. "00:00:00" --> "" (empty string)
+  2. single-digit months (**m**/dd/yyyy) --> 2-digit months (**mm**/dd/yyyy)
+     1. Parse order_date into month and day/year columns
+     2. Replace m --> mm values in month column
+     3. Merge month and day/year columns
+  3. "abc/" --> "" (empty string)
+  4. "Jan 5 2023" --> "01/05/2023"
+2. Product
+   1. "shoes" --> "Shoes"
+3. Category
+   1. "electronic", "Electronicss", "ELECTRONICS" --> "Electronics"
+   2. "sports" --> "Sports"
+   3. "nan" --> "null"
+
+#### Changes made for invalid values in numeric columns:
+(See Img/Replacing Values/Numeric Columns)
+1.
 
 
 ## Data Source
