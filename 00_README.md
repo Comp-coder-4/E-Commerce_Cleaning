@@ -61,7 +61,7 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
 ### Step 3. Find & Replace Values
 
 #### Changes made for invalid values in text columns:
-(See Img/Replacing Values/Text Columns)
+**(Screenshots: Img/Replacing Values/Text Columns)**
 1. Order_date 
    1. "00:00:00" --> "" (empty string)
   2. single-digit months (**m**/dd/yyyy) --> 2-digit months (**mm**/dd/yyyy)
@@ -78,7 +78,7 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
    3. "nan" --> "null"
 
 #### Changes made for invalid values in numeric columns:
-(See Img/Replacing Values/Numeric Columns)
+**(Screenshots: Img/Replacing Values/Numeric Columns)**
 Exploring the table further revealed the following:
 1. **Problem** Prices were unreasonably high
   - E.g. Biography book price was 552.
@@ -87,8 +87,11 @@ Exploring the table further revealed the following:
 2. **Problem** Some products had wrong category
     - E.g. ID = 166, product = t-shirt, category = "electronics"
     - **Solution** 
-      - Use pivot table to find categories each product was in
-      - Identify which products were in wrong categories
+      - Use pivot table to find categories each product was in (**Imgs/.../Pivot table (product,categories).png**)
+      - Identify which products were in wrong categories:
+        - Wrong products in Electronics: Basketball, blender, lamp, microwave, t-shirt, vacuum, yoga mat
+      - In Excel main table, make flag column where Category = "Electronics" and product is either "Basketball", "Blender", "Lamp", "Microwave", "T-shirt", "Vacuum" or "Yoga Mat" (**See Imgs/.../Wrong Category FLAG.png**)
+      - Write Excel IF function to make correct Category Column (**See Imgs/.../Correct Category Column.png**)
 
 
 ## Data Source
