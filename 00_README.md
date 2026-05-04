@@ -15,8 +15,8 @@ The goal was to find quality issues with the dataset and clean it to improve dat
 Tool Used: Excel
 
 Key Excel techniques/functions used:
-- Logical functions (IF, AND)
-
+- Logical functions (IF, AND, OR)
+- Date function (DATE)
 
 ## File Structure
 1. **messy_ecommerce_sales.xlsx**
@@ -111,11 +111,30 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
 ### <ins>Step 4. Missing Values</ins>
 #### <ins>Non-numeric Columns</ins>
 #### Changes made for invalid values in non-numeric columns:
-**(Screenshots: Imgs/)**
-
+1. Category
+   - Fill based on product (Using pivot table with products and their category)
+2. Order_date
+   - Can't deduce date so left blank
+  
 #### <ins>Numeric Columns</ins>
 Already filled in previous steps
 
+### <ins>Step 5. Fix Data Types</ins>
+(**Screenshots: Imgs/.../Fixing Data Types**)
+1. Using Power Query:
+- ID INT
+- Customer_Name Text
+- Order_ID Text
+- Product Text
+- Category Text
+- Quantity INT
+- Payment_Method Text
+- Status Text
+
+2. Order_date (**Imgs/.../Fixing Data Types/Order Date**)
+   - Parse to 3 text columns: day, month and year
+   - **Problem:** Year column had values that were first digit of the year **Solution:** Concatenate 2 to the start of year values that had first digit missing
+   - Make Order_Date DATE column using DATE() function
 
 ## Data Source
 https://www.kaggle.com/datasets/kandeelai22/messy-e-commerce-sales-dataset
