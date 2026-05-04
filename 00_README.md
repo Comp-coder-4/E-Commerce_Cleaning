@@ -79,11 +79,9 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
 
 #### <ins>Numeric Columns</ins>
 
-**Screenshots: Img/Replacing Values/Numeric Columns**
+**(Screenshots: Img/Replacing Values/Numeric Columns)**
 
-#### Changes made for invalid values in numeric columns:
-
-##### Exploring the table further revealed the following:
+#### Exploring the table further revealed the following:
 1. **Problem** Prices were unreasonably high
   - E.g. Biography book price was 552.
   - In reality, wouldn't price wouldn't be more than 20
