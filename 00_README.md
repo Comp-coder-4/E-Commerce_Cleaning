@@ -61,7 +61,7 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
 ### <ins>Step 3. Find & Replace Values</ins>
 #### <ins>Text Columns</ins>
 #### Changes made for invalid values in text columns:
-**(Screenshots: Img/Replacing Values/Text Columns)**
+**(Screenshots: Imgs/Replacing Values/Text Columns)**
 1. Order_date 
    1. "00:00:00" &rarr; "" (empty string)
   2. single-digit months (**<ins>m</ins>**/dd/yyyy) &rarr; 2-digit months (**<ins>mm</ins>**/dd/yyyy)
@@ -79,13 +79,13 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
 
 #### <ins>Numeric Columns</ins>
 
-**(Screenshots: Img/Replacing Values/Numeric Columns)**
+**(Screenshots: Imgs/Replacing Values/Numeric Columns)**
 
 #### Exploring the table further revealed the following:
 1. **Problem** Prices were unreasonably high
   - E.g. Biography book price was 552.
   - In reality, wouldn't price wouldn't be more than 20
-  - **Solution** A variety of categories of products sold. Likely not selling expensive products (e.g. expensive sport shop). Each product has different prices so cannot replace price values from same table. Therefore, for this analysis, I divide Price by 10 and find Price Per Unit based on this value (**Imgs/.../Prices**)
+  - **Solution** A variety of categories of products sold. Likely not selling expensive products (e.g. expensive sport shop). Each product has different price so cannot replace price values from other orders. Therefore, for this analysis, I divide Price by 10 and find Price Per Unit based on this value (**Imgs/.../Prices**)
 2. **Problem** Some products had wrong category
     - E.g. ID = 166, product = t-shirt, category = "electronics"
     - **Solution** 
@@ -97,6 +97,24 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
      
 #### Changes made for invalid values in numeric columns:
 
+**Negative values are consistent within a single row i.e. quantity * price = total so negative symbols can be removed**
+
+1. Price
+   - 300$ &rarr; 300. **Assumption:** Price = 300$ should be 300. Similar orders have price in range 206 to 868 (**Imgs/../Prices/Price=300$**)
+   - "abd" %rarr; 400
+2. Quantity
+   - Deduce quantity from new price column and total
+4. Total
+   - Calculate total = price / quantity
+   - **Problem:** Received errors when price and quantity were missing. **Solution:** Used logical functions to calculate total and return empty string if quantity and price were missing (**Imgs/../Total Column/Fix Error in Total column.png**)
+
+### <ins>Step 4. Missing Values</ins>
+#### <ins>Non-numeric Columns</ins>
+#### Changes made for invalid values in non-numeric columns:
+**(Screenshots: Imgs/)**
+
+#### <ins>Numeric Columns</ins>
+Already filled in previous steps
 
 
 ## Data Source
