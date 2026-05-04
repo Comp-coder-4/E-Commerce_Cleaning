@@ -79,7 +79,16 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
 
 #### Changes made for invalid values in numeric columns:
 (See Img/Replacing Values/Numeric Columns)
-1.
+Exploring the table further revealed the following:
+1. **Problem** Prices were unreasonably high
+  - E.g. Biography book price was 552.
+  - In reality, wouldn't price wouldn't be more than 20
+  - **Solution** A variety of categories of products sold. Likely not selling expensive products (e.g. expensive sport shop). Each product has different prices so cannot replace price values from same table. Therefore, for this analysis, I divide Price by 10 and find Price Per Unit based on this value
+2. **Problem** Some products had wrong category
+    - E.g. ID = 166, product = t-shirt, category = "electronics"
+    - **Solution** 
+      - Use pivot table to find categories each product was in
+      - Identify which products were in wrong categories
 
 
 ## Data Source
