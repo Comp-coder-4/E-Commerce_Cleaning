@@ -59,7 +59,7 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
 * One row for ID 142 had incorrect value in Total column (indicated by yellow box)
 
 ### Step 3. Find & Replace Values
-
+#### Text Columns
 #### Changes made for invalid values in text columns:
 **(Screenshots: Img/Replacing Values/Text Columns)**
 1. Order_date 
@@ -77,6 +77,7 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
    2. "sports" --> "Sports"
    3. "nan" --> "null"
 
+#### Numeric Columns
 #### Changes made for invalid values in numeric columns:
 **(Screenshots: Img/Replacing Values/Numeric Columns)**
 
