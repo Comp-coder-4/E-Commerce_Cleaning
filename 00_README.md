@@ -133,7 +133,7 @@ Already filled in previous steps
 
 2. Order_date (**Imgs/.../Fixing Data Types/Order Date**)
    - Parse to 3 text columns: day, month and year
-   - **Problem:** Year column had values that were first digit of the year **Solution:** Concatenate 2 to the start of year values that had first digit missing
+   - **Problem:** Year column had values that were missing first digit of the year **Solution:** Concatenate 2 to the start of year values that had first digit missing
    - Make Order_Date DATE column using DATE() function
 
 ## Data Source
