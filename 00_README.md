@@ -149,9 +149,10 @@ Make column names consistent.
 **_(Screenshots Imgs/Outliers)_**
 
 Price Per Unit
-    - Skewness = 7.6 - Highly skewed to right
-    - Outlier for ID = 117, product = Blender, **price = 500**
-    - This was not caused by an error in my calculation. Instead, the original value for the price was an outlier.
+- Skewness = 7.6 - Highly skewed to right
+- Outlier for ID = 117, product = Blender, **price = 500**
+- This was not caused by an error in my calculation. Instead, the original value for the price was an outlier.
+- Since this makes 1% of data, it's fine to ignore
 
 ## Data Source
 https://www.kaggle.com/datasets/kandeelai22/messy-e-commerce-sales-dataset
