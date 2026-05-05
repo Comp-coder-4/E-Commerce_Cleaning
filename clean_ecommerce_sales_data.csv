@@ -1,0 +1,101 @@
+ID,Customer_Name,Order_ID,Order_Date,Product,Category,Quantity,Price_Per_Unit,Payment_Method,Status,Total
+100,Customer_100,ORD-41285,22/11/2024,Blender,Home,3,1.27,Cash on Delivery,Shipped,3.8
+101,Customer_101,ORD-35783,05/07/2025,Smartphone,Electronics,2,,PayPal,Processing,
+102,Customer_102,ORD-84355,23/12/2024,Tennis Racket,Sports,1,38.91,PayPal,Delivered,38.91
+103,Customer_103,ORD-57811,19/03/2025,Science,Books,5,4.68,PayPal,Processing,23.39
+104,Customer_104,ORD-93614,20/10/2025,Biography,Books,1,55.25,Cash on Delivery,Processing,55.25
+105,Customer_105,ORD-22442,20/11/2024,Tennis Racket,Sports,3,4.07,Cash on Delivery,Cancelled,12.21
+106,Customer_106,ORD-25885,02/02/2025,Blender,Home,,,Bank Transfer,Processing,
+107,Customer_107,ORD-89122,03/01/2025,Biography,Books,5,11.75,PayPal,Returned,58.77
+108,Customer_108,ORD-64400,23/10/2025,Science,Books,1,60.03,Cash on Delivery,Processing,60.03
+109,Customer_109,ORD-18512,03/05/2025,Tennis Racket,Sports,5,3.37,Credit Card,Shipped,16.83
+110,Customer_110,ORD-61020,26/09/2025,Basketball,Sports,5,8,Cash on Delivery,Cancelled,40
+111,Customer_111,ORD-72349,22/10/2025,Comics,Books,2,43.29,Credit Card,Returned,86.58
+112,Customer_112,ORD-80867,02/03/2025,Shoes,Clothing,4,18.8,Bank Transfer,Delivered,75.21
+113,Customer_113,ORD-23994,24/07/2025,Fiction,Books,1,41.18,Credit Card,Processing,41.18
+114,Customer_114,ORD-77417,05/01/2023,Smartphone,Electronics,2,20.66,Cash on Delivery,Shipped,41.31
+115,Customer_115,ORD-72778,10/01/2025,Fiction,Books,2,39.84,Cash on Delivery,Returned,79.68
+116,Customer_116,ORD-63660,30/10/2025,Microwave,Home,4,,Cash on Delivery,Processing,
+117,Customer_117,ORD-72751,12/02/2025,Blender,Home,2,500,Cash on Delivery,Processing,1000
+118,Customer_118,ORD-96061,31/05/2025,Science,Books,5,4.96,PayPal,Processing,24.78
+119,Customer_119,ORD-76016,19/12/2024,Basketball,Sports,4,10.95,Cash on Delivery,Processing,43.82
+120,Customer_120,ORD-14659,13/06/2025,Yoga Mat,Sports,5,6,Credit Card,Cancelled,30
+121,Customer_121,ORD-80067,11/10/2025,Basketball,Sports,4,13.08,Credit Card,Delivered,52.3
+122,Customer_122,ORD-21443,16/05/2025,Microwave,Home,2,27.85,PayPal,Shipped,55.69
+123,Customer_123,ORD-11314,06/10/2025,Vacuum,Home,3,20.53,Cash on Delivery,Cancelled,61.59
+124,Customer_124,ORD-46136,31/05/2025,Comics,Books,5,,PayPal,Cancelled,
+125,Customer_125,ORD-23202,09/02/2025,Comics,Books,4,19.14,PayPal,Shipped,76.57
+126,Customer_126,ORD-11261,18/05/2025,Shoes,Clothing,4,20.92,Bank Transfer,Cancelled,83.68
+127,Customer_127,ORD-65482,12/05/2025,Blender,Home,5,6.72,Bank Transfer,Returned,33.6
+128,Customer_128,ORD-12270,10/11/2024,Lamp,Home,3,29.96,Bank Transfer,Delivered,89.87
+129,Customer_129,ORD-48863,22/06/2025,Science,Books,4,18.42,Bank Transfer,Returned,73.67
+130,Customer_130,ORD-34007,15/08/2025,Tennis Racket,Sports,2,,Bank Transfer,Processing,
+131,Customer_131,ORD-91396,11/06/2025,Lamp,Home,5,12.33,PayPal,Shipped,61.66
+132,Customer_132,ORD-40186,02/04/2025,Yoga Mat,Sports,1,26.67,PayPal,Delivered,26.67
+133,Customer_133,ORD-68182,05/12/2024,Biography,Books,5,6.86,Credit Card,Shipped,34.32
+134,Customer_134,ORD-16585,04/10/2025,T-shirt,Clothing,5,11.83,PayPal,Shipped,59.15
+135,Customer_135,ORD-33656,09/02/2025,Smartwatch,Electronics,4,11.15,Cash on Delivery,Cancelled,44.62
+136,Customer_136,ORD-20985,12/06/2025,Headphones,Electronics,1,69.67,Credit Card,Delivered,69.67
+137,Customer_137,ORD-91254,23/02/2025,Vacuum,Home,3,3.33,Cash on Delivery,Delivered,10
+138,Customer_138,ORD-34319,09/08/2025,Lamp,Home,1,53.11,PayPal,Processing,53.11
+139,Customer_139,ORD-38418,09/02/2025,Smartphone,Electronics,2,34.07,Credit Card,Cancelled,68.14
+140,Customer_140,ORD-67096,26/02/2025,Fiction,Books,4,14.72,Credit Card,Returned,58.9
+141,Customer_141,ORD-45059,13/02/2025,Fiction,Books,3,18.2,Cash on Delivery,Returned,54.6
+142,Customer_142,ORD-69018,30/10/2025,Shoes,Clothing,5,12.91,Credit Card,Shipped,64.53
+143,Customer_143,ORD-14329,11/07/2025,T-shirt,Clothing,5,16.54,Bank Transfer,Cancelled,82.68
+144,Customer_144,ORD-89452,27/01/2025,Football,Sports,5,16.98,Bank Transfer,Processing,84.91
+145,Customer_145,ORD-75314,01/05/2023,Laptop,Electronics,2,43.05,Bank Transfer,Returned,86.1
+146,Customer_146,ORD-32755,09/07/2025,Basketball,Sports,2,35.27,Bank Transfer,Processing,70.54
+147,Customer_147,ORD-80707,01/05/2025,Jacket,Clothing,4,14.9,Cash on Delivery,Shipped,59.62
+148,Customer_148,ORD-38423,13/03/2025,Tennis Racket,Sports,1,66.1,Cash on Delivery,Returned,66.1
+149,Customer_149,ORD-95911,29/06/2025,Comics,Books,5,17.93,Bank Transfer,Cancelled,89.64
+150,Customer_150,ORD-76902,27/11/2024,Yoga Mat,Sports,1,20.62,Credit Card,Returned,20.62
+151,Customer_151,ORD-56552,01/07/2025,Comics,Books,2,22.86,PayPal,Processing,45.72
+152,Customer_152,ORD-72869,22/09/2025,Lamp,Home,3,7.77,PayPal,Returned,23.31
+153,Customer_153,ORD-29721,16/07/2025,Yoga Mat,Sports,4,6.97,Cash on Delivery,Processing,27.89
+154,Customer_154,ORD-95990,21/02/2025,Blender,Home,5,15.79,Cash on Delivery,Cancelled,78.96
+155,Customer_155,ORD-20182,01/05/2025,Shoes,Clothing,1,4.1,PayPal,Returned,4.1
+156,Customer_156,ORD-34679,28/11/2024,Jeans,Clothing,2,,Bank Transfer,Shipped,
+157,Customer_157,ORD-34407,06/11/2025,Jacket,Clothing,4,6.88,Bank Transfer,Processing,27.51
+158,Customer_158,ORD-35817,05/04/2025,Smartwatch,Electronics,1,93.36,Cash on Delivery,Shipped,93.36
+159,Customer_159,ORD-98162,28/07/2025,Microwave,Home,3,5.44,PayPal,Shipped,16.32
+160,Customer_160,ORD-96037,03/01/2025,Science,Books,5,4.85,Cash on Delivery,Returned,24.25
+161,Customer_161,ORD-27653,15/12/2024,Science,Books,4,5.23,Bank Transfer,Shipped,20.93
+162,Customer_162,ORD-27743,19/05/2025,Blender,Home,2,7.79,Credit Card,Returned,15.58
+163,Customer_163,ORD-24378,05/01/2023,Smartwatch,Electronics,3,7.84,Cash on Delivery,Shipped,23.53
+164,Customer_164,ORD-23010,09/02/2025,Tennis Racket,Sports,,,Credit Card,Returned,
+165,Customer_165,ORD-55695,08/11/2024,Shoes,Clothing,2,22.16,Credit Card,Delivered,44.31
+166,Customer_166,ORD-97756,03/07/2025,T-shirt,Clothing,2,28.47,Cash on Delivery,Shipped,56.94
+167,Customer_167,ORD-30329,07/08/2025,Basketball,Sports,,,Cash on Delivery,Processing,
+168,Customer_168,ORD-53430,04/11/2025,Biography,Books,2,7.07,PayPal,Cancelled,14.15
+169,Customer_169,ORD-75539,12/08/2025,Basketball,Sports,1,58.21,Credit Card,Returned,58.21
+170,Customer_170,ORD-21530,03/10/2025,Jeans,Clothing,5,14.83,Bank Transfer,Processing,74.16
+171,Customer_171,ORD-99790,06/12/2024,Shoes,Clothing,3,22.96,PayPal,Processing,68.87
+172,Customer_172,ORD-48008,18/11/2024,Comics,Books,2,47.14,Bank Transfer,Returned,94.28
+173,Customer_173,ORD-42171,11/10/2025,Lamp,Home,5,7.04,Credit Card,Shipped,35.19
+174,Customer_174,ORD-16766,20/09/2025,Microwave,Home,4,4.69,Credit Card,Returned,18.75
+175,Customer_175,ORD-56651,24/02/2025,Headphones,Electronics,1,11.14,Credit Card,Processing,11.14
+176,Customer_176,ORD-95794,22/07/2025,Comics,Books,5,10.61,Cash on Delivery,Shipped,53.05
+177,Customer_177,ORD-64136,28/07/2025,Laptop,Electronics,1,6.95,Bank Transfer,Returned,6.95
+178,Customer_178,ORD-89906,18/09/2025,Tennis Racket,Sports,3,15.74,PayPal,Returned,47.21
+179,Customer_179,ORD-99328,03/09/2025,Yoga Mat,Sports,3,28.96,PayPal,Delivered,86.87
+180,Customer_180,ORD-86629,26/03/2025,Laptop,Electronics,2,20.92,Credit Card,Processing,41.84
+181,Customer_181,ORD-54481,29/12/2024,Smartphone,Electronics,1,26.65,Cash on Delivery,Cancelled,26.65
+182,Customer_182,ORD-79672,03/08/2025,Shoes,Clothing,4,13.46,PayPal,Processing,53.84
+183,Customer_183,ORD-20916,10/03/2025,Shoes,Clothing,5,,Cash on Delivery,Returned,
+184,Customer_184,ORD-67799,15/02/2025,Jeans,Clothing,4,2.53,Bank Transfer,Processing,10.12
+185,Customer_185,ORD-57123,14/08/2025,Football,Sports,2,36.55,Cash on Delivery,Cancelled,73.09
+186,Customer_186,ORD-90569,06/10/2025,Laptop,Electronics,1,36.53,Bank Transfer,Delivered,36.53
+187,Customer_187,ORD-41292,19/11/2024,Smartphone,Electronics,3,29.43,Bank Transfer,Returned,88.3
+188,Customer_188,ORD-58590,19/11/2024,Microwave,Home,5,10.08,Cash on Delivery,Shipped,50.41
+189,Customer_189,ORD-30627,14/08/2025,Lamp,Home,1,81.47,Cash on Delivery,Returned,81.47
+190,Customer_190,ORD-38469,29/06/2025,Vacuum,Home,1,92.04,Bank Transfer,Processing,92.04
+191,Customer_191,ORD-41810,18/07/2025,Fiction,Books,2,44.05,Cash on Delivery,Returned,88.1
+192,Customer_192,ORD-35144,,Jacket,Clothing,4,5.09,Credit Card,Returned,20.36
+193,Customer_193,ORD-42475,06/06/2025,Basketball,Sports,,,PayPal,Shipped,
+194,Customer_194,ORD-69764,10/02/2025,Lamp,Home,5,18.89,Cash on Delivery,Returned,94.45
+195,Customer_195,ORD-82876,19/06/2025,Biography,Books,5,16.35,Cash on Delivery,Returned,81.75
+196,Customer_196,ORD-78384,23/12/2024,Vacuum,Home,,,PayPal,Delivered,
+197,Customer_197,ORD-79139,23/06/2025,Blender,Home,1,16.02,PayPal,Cancelled,16.02
+198,Customer_198,ORD-14608,27/07/2025,Vacuum,Home,2,24.85,Cash on Delivery,Shipped,49.7
+199,Customer_199,ORD-82922,22/01/2025,Blender,Home,5,7.45,Credit Card,Shipped,37.23
