@@ -133,6 +133,9 @@ Already filled in previous steps
    - Make Order_Date DATE column using DATE() function
    - **Problem 2:** Order_date in wrong format after being loaded from Power Query to Excel
    - **Solution 2:** I changed the locale to match the dd/mm/yyyy format
+
+3. Price (**_Imgs/Fixing Data Types/Price_**)
+   - Round to 2 d.p.
   
 ### <ins>Step 6. Fix Columns</ins>
 
