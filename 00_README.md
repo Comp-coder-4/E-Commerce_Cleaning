@@ -98,7 +98,7 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
 **Negative values are consistent within a single row i.e. quantity * price = total so negative symbols can be removed**
 
 1. Price
-   - 300$ &rarr; 300. **Assumption:** Price = 300$ should be 300. Similar orders have price in range 206 to 868 (**Imgs/Replacing Values/Numeric Columns/Prices/Price=300$**)
+   - 300$ &rarr; 300. **Assumption:** Price = 300$ should be 300. Similar orders have price in range 206 to 868
    - "abd" %rarr; 400
 2. Quantity
    - Deduce quantity from new price column and total
@@ -136,7 +136,7 @@ Already filled in previous steps
    - **Problem 2:** Order_date in wrong format after being loaded from Power Query to Excel
    - **Solution 2:** I changed the locale to match the dd/mm/yyyy format
 
-3. Price (**_Imgs/Fixing Data Types/Price_**)
+3. Price
    - Round to 2 d.p.
   
 ### <ins>Step 6. Fix Columns</ins>
