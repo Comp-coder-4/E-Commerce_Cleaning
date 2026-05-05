@@ -137,6 +137,13 @@ Already filled in previous steps
    - Make Order_Date DATE column using DATE() function
    - **Problem 2:** Order_date in wrong format after being loaded from Power Query to Excel
    - **Solution 2:** I changed the locale to match the dd/mm/yyyy format
+  
+
+### <ins>Step 6. Columns</ins>
+
+Remove old columns and columns used for cleaning. 
+
+Make column names consistent.
 
 ## Data Source
 https://www.kaggle.com/datasets/kandeelai22/messy-e-commerce-sales-dataset
