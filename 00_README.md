@@ -44,6 +44,8 @@ Issues identified:
    - Total has nulls
     
 ### <ins>Step 2. Duplicates</ins>
+**_(Screenshots: Imgs/Removing Duplicates)_**
+
 1. Conditional formatting:
    - ID has duplicates
 2. Created a CONCAT column
