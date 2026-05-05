@@ -47,7 +47,7 @@ Issues identified:
 1. Conditional formatting:
    - ID has duplicates
 2. Created a CONCAT column
-   - concatenates all columns to give each row unique value
+   - concatenates all columns to give each row a unique value
 
 If ID was duplicated **AND if both** of their **CONCAT column values were the same**, that meant the entire row was a duplicate. See Imgs/Removing Duplicates/Finding duplicate rows.png. In this screenshot:
 * ID 146 was duplicated 
