@@ -136,7 +136,7 @@ Already filled in previous steps
    - **Problem:** Year column had values that were missing first digit of the year **Solution:** Concatenate 2 to the start of year values that had first digit missing
    - Make Order_Date DATE column using DATE() function
    - **Problem 2:** Order_date had wrong values after loading
-   - **Solution 2:** Likely that data source format differed from computer's locale. I used "Change Type with Locale"
+   - **Solution 2:** Likely that data source format differed from computer's locale.
 
 ## Data Source
 https://www.kaggle.com/datasets/kandeelai22/messy-e-commerce-sales-dataset
