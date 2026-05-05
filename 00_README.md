@@ -95,7 +95,7 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
      
 #### Changes made for invalid values in numeric columns:
 
-**Negative values are consistent within a single row i.e. quantity * price = total so negative symbols can be removed**
+**Negative values are consistent within a single row i.e. quantity x price = total so negative symbols can be removed**
 
 1. Price
    - 300$ &rarr; 300. **Assumption:** Price = 300$ should be 300. Similar orders have price in range 206 to 868
