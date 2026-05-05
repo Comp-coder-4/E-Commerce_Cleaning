@@ -7,7 +7,7 @@ The data source provides a messy e-commerce sales table
 
 ## Business Objective: Clean the sales data
 
-The goal was to find quality issues with the dataset and clean it to improve data quality. This is done using .....
+The goal was to find quality issues with the dataset and clean it to improve data quality.
 
 Tool Used: Excel
 
