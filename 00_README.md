@@ -82,7 +82,7 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
      - E.g. Biography book price was 552.
      - In reality, wouldn't price of a biography wouldn't be more than 20
      - **Solution 1:** A variety of categories of products sold. Likely not selling expensive products (e.g. expensive sport shop). Each product has different price so cannot replace price values from other orders. Therefore, for this analysis, I divide Price by 10 and find Price Per Unit based on this value (**_Imgs/Replacing Values/Numeric Column/Prices_**)
-2. **Problem 2:** Some products had wrong category
+2. **Problem 2:** Some products had wrong category (**_Imgs/Replacing Values/Text Columns/Category 2_**)
     - E.g. ID = 166, product = t-shirt, category = "electronics"
     - **Solution 2:** 
       - Use pivot table to find categories each product was in
