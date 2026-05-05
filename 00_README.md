@@ -139,11 +139,15 @@ Already filled in previous steps
    - **Solution 2:** I changed the locale to match the dd/mm/yyyy format
   
 
-### <ins>Step 6. Columns</ins>
+### <ins>Step 6. Fix Columns</ins>
 
 Remove old columns and columns used for cleaning. 
 
 Make column names consistent.
+
+### <ins>Step 7. Outliers</ins>
+
+### <ins>Step 8. Descriptive Statistics</ins>
 
 ## Data Source
 https://www.kaggle.com/datasets/kandeelai22/messy-e-commerce-sales-dataset
