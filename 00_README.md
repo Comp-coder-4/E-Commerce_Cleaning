@@ -144,5 +144,14 @@ Remove old columns and columns used for cleaning.
 
 Make column names consistent.
 
+### <ins>Step 6. Outliers</ins>
+
+**_(Screenshots Imgs/Outliers)_**
+
+Price Per Unit
+    - Skewness = 7.6 - Highly skewed to right
+    - Outlier for ID = 117, product = Blender, **price = 500**
+    - This was not caused by an error in my calculation. Instead, the original value for the price was an outlier.
+
 ## Data Source
 https://www.kaggle.com/datasets/kandeelai22/messy-e-commerce-sales-dataset
