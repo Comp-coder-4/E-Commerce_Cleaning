@@ -49,7 +49,7 @@ Issues identified:
 2. Created a CONCAT column
    - concatenates all columns to give each row a unique value
 
-If ID was duplicated **AND if both** of their **CONCAT column values were the same**, that meant the entire row was a duplicate. See Imgs/Removing Duplicates/Finding duplicate rows.png. In this screenshot:
+If ID was duplicated **AND if both** of their **CONCAT column values were the same**, that meant the entire row was a duplicate. See **_Imgs/Removing Duplicates/Finding duplicate rows.png_**. In this screenshot:
 * ID 146 was duplicated 
 * ID 142 is not duplicated
 * One row for ID 142 had incorrect value in Total column (indicated by yellow box)
@@ -57,7 +57,7 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
 ### <ins>Step 3. Find & Replace Values</ins>
 #### <ins>Text Columns</ins>
 #### Changes made for invalid values in text columns:
-**(Screenshots: Imgs/Replacing Values/Text Columns)**
+**_(Screenshots: Imgs/Replacing Values/Text Columns)_**
 1. Order_date 
    1. "00:00:00" &rarr; "" (empty string)
   2. single-digit months (**<ins>m</ins>**/dd/yyyy) &rarr; 2-digit months (**<ins>mm</ins>**/dd/yyyy)
@@ -75,7 +75,7 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
 
 #### <ins>Numeric Columns</ins>
 
-**(Screenshots: Imgs/Replacing Values/Numeric Columns)**
+**_(Screenshots: Imgs/Replacing Values/Numeric Columns)_**
 
 #### Exploring the table further revealed the following:
 1. **Problem** Prices were unreasonably high
