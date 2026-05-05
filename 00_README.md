@@ -1,12 +1,9 @@
 # <ins>E-Commerce Transactions Cleaning Project</ins> :computer:
 
-**This Project is a work in progress. The following is the cleaning work done this far 😃:**
-
 The dataset looks at E-Commerce transactions across categories of products. It gives details such as order status and amount spent in each transaction.
 
 ______________________________________ 
 The data source provides a messy e-commerce sales table 
-
 
 ## Business Objective: Clean the sales data
 
@@ -14,16 +11,15 @@ The goal was to find quality issues with the dataset and clean it to improve dat
 
 Tool Used: Excel
 
-Key Excel techniques/functions used:
-- Logical functions (IF, AND, OR)
-- Date function (DATE)
+Key Excel functions used:
+- Logical (IF, AND, OR)
+- Date (DATE)
 
 ## File Structure
 1. **messy_ecommerce_sales.xlsx**
    * Columns used to clean data are orange
 3. **Imgs folder** - screenshots
 4. **raw_data.csv** - raw data
-
 
 ## Workflow
 ### <ins>Step 1. Profile the data with Excel Power Query</ins>
@@ -138,16 +134,11 @@ Already filled in previous steps
    - **Problem 2:** Order_date in wrong format after being loaded from Power Query to Excel
    - **Solution 2:** I changed the locale to match the dd/mm/yyyy format
   
-
 ### <ins>Step 6. Fix Columns</ins>
 
 Remove old columns and columns used for cleaning. 
 
 Make column names consistent.
-
-### <ins>Step 7. Outliers</ins>
-
-### <ins>Step 8. Descriptive Statistics</ins>
 
 ## Data Source
 https://www.kaggle.com/datasets/kandeelai22/messy-e-commerce-sales-dataset
