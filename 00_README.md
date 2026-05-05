@@ -96,13 +96,13 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
 **Negative values are consistent within a single row i.e. quantity * price = total so negative symbols can be removed**
 
 1. Price
-   - 300$ &rarr; 300. **Assumption:** Price = 300$ should be 300. Similar orders have price in range 206 to 868 (**Imgs/../Prices/Price=300$**)
+   - 300$ &rarr; 300. **Assumption:** Price = 300$ should be 300. Similar orders have price in range 206 to 868 (**Imgs/Replacing Values/Numeric Columns/Prices/Price=300$**)
    - "abd" %rarr; 400
 2. Quantity
    - Deduce quantity from new price column and total
 4. Total
-   - Calculate total = price / quantity
-   - **Problem:** Received errors when price and quantity were missing. **Solution:** Used logical functions to calculate total and return empty string if quantity and price were missing (**Imgs/../Total Column/Fix Error in Total column.png**)
+   - Calculate total = price x quantity
+   - **Problem:** Received errors when price and quantity were missing. **Solution:** Used logical functions to calculate total and return empty string if quantity and price were missing (**_Imgs/Replacing Values/Numeric Columns/Total Column/Fix Error in Total column.png_**)
 
 ### <ins>Step 4. Missing Values</ins>
 #### <ins>Non-numeric Columns</ins>
@@ -116,7 +116,7 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
 Already filled in previous steps
 
 ### <ins>Step 5. Fix Data Types</ins>
-(**Screenshots: Imgs/.../Fixing Data Types**)
+(**_Screenshots: Imgs/Fixing Data Types_**)
 1. Using Power Query:
 - ID INT
 - Customer_Name Text
@@ -127,9 +127,9 @@ Already filled in previous steps
 - Payment_Method Text
 - Status Text
 
-2. Order_date (**Imgs/.../Fixing Data Types/Order Date**)
-   - Parse to 3 text columns: day, month and year
-   - **Problem:** Year column had values that were missing first digit of the year **Solution:** Concatenate 2 to the start of year values that had first digit missing
+2. Order_date (**_Imgs/Fixing Data Types/Order Date_**)
+   - Parse order_date to 3 text columns: day, month and year
+   - **Problem 1:** Year column had values that were missing first digit of the year **Solution 1:** Concatenate 2 to the start of year values that had first digit missing
    - Make Order_Date DATE column using DATE() function
    - **Problem 2:** Order_date in wrong format after being loaded from Power Query to Excel
    - **Solution 2:** I changed the locale to match the dd/mm/yyyy format
