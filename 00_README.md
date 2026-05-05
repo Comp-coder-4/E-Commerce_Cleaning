@@ -16,10 +16,9 @@ Key Excel functions used:
 - Date (DATE)
 
 ## File Structure
-1. **messy_ecommerce_sales.xlsx**
-   * Columns used to clean data are orange
-3. **Imgs folder** - screenshots
-4. **raw_data.csv** - raw data
+1. **Imgs folder** - screenshots
+2. **raw_data.csv** - raw data
+3. **cleaned_ecommerce_sales_data.xlsx** - data after cleaning
 
 ## Workflow
 ### <ins>Step 1. Profile the data with Excel Power Query</ins>
