@@ -144,7 +144,7 @@ Remove old columns and columns used for cleaning.
 
 Make column names consistent.
 
-### <ins>Step 6. Outliers</ins>
+### <ins>Step 7. Outliers</ins>
 
 **_(Screenshots Imgs/Outliers)_**
 
