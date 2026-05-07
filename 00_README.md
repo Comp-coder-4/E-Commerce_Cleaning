@@ -144,10 +144,11 @@ Remove old columns and columns used for cleaning.
 
 Make column names consistent.
 
-### <ins>Step 7. Outliers</ins>
+### <ins>Step 7. Outliers and Distribution</ins>
 
 **_(Screenshots Imgs/Outliers)_**
 
+#### Skewness and outliers
 Price Per Unit
 - Skewness = 7.6 - Highly skewed to right
 - Outlier for ID = 117, product = Blender, **price = 500**
@@ -155,8 +156,11 @@ Price Per Unit
 - Since this makes 1% of data, I'm going remove this row
 - Now skewness is 2 - Lower skewer
 - Remaining outliers: 93.96 (Smartphone, Electronics), 92.04 (Vacuum, Home), 81.47 (Lamp, Home), 69.67 (Headphones, Electronics), 66.1 (Tennis Racket, Sports)
-- Looking other Smartwatches, the 93.96 price seems like an outlier
-- 
+- For each outlier, it's impossible to say if it's an outlier by looking at the same products and comparing prices. Since we don't have access to data source and determine whether these are truly outliers, I will leave them in the data.
+
+#### Distribution
+
+
 
 ## Data Source
 https://www.kaggle.com/datasets/kandeelai22/messy-e-commerce-sales-dataset
