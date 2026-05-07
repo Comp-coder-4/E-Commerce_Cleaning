@@ -160,7 +160,8 @@ Price Per Unit
 
 #### Distribution
 
-
+We don't expect a Normal Distribution for this dataset.
+We have a right skew for Price per Unit and unclear distribution for Total and Quantity
 
 ## Data Source
 https://www.kaggle.com/datasets/kandeelai22/messy-e-commerce-sales-dataset
