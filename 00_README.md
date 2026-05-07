@@ -19,6 +19,7 @@ Key Excel functions used:
 1. **Imgs folder** - screenshots
 2. **raw_data.csv** - raw data
 3. **cleaned_ecommerce_sales_data.xlsx** - data after cleaning
+4. **Outliers and Distribution.xlsx** -- Histograms, box plots and descriptive statistics showing outliers and distribution
 
 ## Workflow
 ### <ins>Step 1. Profile the data with Excel Power Query</ins>
