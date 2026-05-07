@@ -5,7 +5,7 @@ The dataset looks at E-Commerce transactions across categories of products. It g
 ______________________________________ 
 The data source provides a messy e-commerce sales table
 
-## Business Objective: Clean the sales data
+## Business Objective: Clean the sales data to prepare for analysis
 
 The goal was to improve the data quality of the dataset.
 
