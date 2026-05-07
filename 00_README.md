@@ -152,7 +152,11 @@ Price Per Unit
 - Skewness = 7.6 - Highly skewed to right
 - Outlier for ID = 117, product = Blender, **price = 500**
 - This was not caused by an error in my calculation. Instead, the original value for the price was an outlier.
-- Since this makes 1% of data, it's fine to ignore
+- Since this makes 1% of data, I'm going remove this row
+- Now skewness is 2 - Lower skewer
+- Remaining outliers: 93.96 (Smartphone, Electronics), 92.04 (Vacuum, Home), 81.47 (Lamp, Home), 69.67 (Headphones, Electronics), 66.1 (Tennis Racket, Sports)
+- Looking other Smartwatches, the 93.96 price seems like an outlier
+- 
 
 ## Data Source
 https://www.kaggle.com/datasets/kandeelai22/messy-e-commerce-sales-dataset
