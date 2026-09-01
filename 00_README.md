@@ -90,7 +90,9 @@ In this screenshot:
         - Wrong products in Electronics: Basketball, blender, lamp, microwave, t-shirt, vacuum, yoga mat
       - In Excel main table, make flag column where Category = "Electronics" and product is either "Basketball", "Blender", "Lamp", "Microwave", "T-shirt", "Vacuum" or "Yoga Mat"
       - Write Excel IF function to make correct Category Column
+        
 ![image alt](https://github.com/Comp-coder-4/E-Commerce_Cleaning/blob/main/Imgs/Replacing%20Values/Text%20Columns/Category%202/4.%20Wrong%20Category%20FLAG.png?raw=true)
+
 ![image alt](https://github.com/Comp-coder-4/E-Commerce_Cleaning/blob/main/Imgs/Replacing%20Values/Text%20Columns/Category%202/5.%20Correct%20Category%20Column.png?raw=true)
 
 #### Changes made for invalid values in numeric columns:
@@ -105,6 +107,7 @@ In this screenshot:
 4. Total
    - Calculate total = price x quantity
    - **Problem:** Received errors when price and quantity were missing. **Solution:** Used logical functions to calculate total and return empty string if quantity and price were missing (**_Imgs/Replacing Values/Numeric Columns/Total Column/Fix Error in Total column.png_**)
+     
 ![image alt](https://github.com/Comp-coder-4/E-Commerce_Cleaning/blob/main/Imgs/Replacing%20Values/Numeric%20Columns/Total%20Column/Fix%20Error%20in%20Total%20column.png?raw=true)
 
 ### <ins>Step 4. Missing Values</ins>
