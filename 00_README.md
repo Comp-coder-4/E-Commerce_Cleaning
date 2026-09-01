@@ -51,7 +51,10 @@ Issues identified:
 2. Created a CONCAT column
    - concatenates all columns to give each row a unique value
 
-If ID was duplicated **AND if both** of their **CONCAT column values were the same**, that meant the entire row was a duplicate. See **_Imgs/Removing Duplicates/Finding duplicate rows.png_**. In this screenshot:
+If ID was duplicated **AND if both** of their **CONCAT column values were the same**, that meant the entire row was a duplicate. See **_Imgs/Removing Duplicates/Finding duplicate rows.png_**. 
+![image alt](https://github.com/Comp-coder-4/E-Commerce_Cleaning/blob/main/Imgs/Removing%20Duplicates/5.%20Finding%20duplicate%20rows.png?raw=true)
+
+In this screenshot:
 * ID 146 was duplicated 
 * ID 142 is not duplicated
 * One row for ID 142 had incorrect value in Total column (indicated by yellow box)
@@ -92,7 +95,9 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
         - Wrong products in Electronics: Basketball, blender, lamp, microwave, t-shirt, vacuum, yoga mat
       - In Excel main table, make flag column where Category = "Electronics" and product is either "Basketball", "Blender", "Lamp", "Microwave", "T-shirt", "Vacuum" or "Yoga Mat"
       - Write Excel IF function to make correct Category Column
-     
+![image alt](https://github.com/Comp-coder-4/E-Commerce_Cleaning/blob/main/Imgs/Replacing%20Values/Text%20Columns/Category%202/4.%20Wrong%20Category%20FLAG.png?raw=true)
+![image alt](https://github.com/Comp-coder-4/E-Commerce_Cleaning/blob/main/Imgs/Replacing%20Values/Text%20Columns/Category%202/5.%20Correct%20Category%20Column.png?raw=true)
+
 #### Changes made for invalid values in numeric columns:
 
 **Negative values are consistent within a single row i.e. quantity x price = total so negative symbols can be removed**
@@ -105,6 +110,7 @@ If ID was duplicated **AND if both** of their **CONCAT column values were the sa
 4. Total
    - Calculate total = price x quantity
    - **Problem:** Received errors when price and quantity were missing. **Solution:** Used logical functions to calculate total and return empty string if quantity and price were missing (**_Imgs/Replacing Values/Numeric Columns/Total Column/Fix Error in Total column.png_**)
+![image alt](https://github.com/Comp-coder-4/E-Commerce_Cleaning/blob/main/Imgs/Replacing%20Values/Numeric%20Columns/Total%20Column/Fix%20Error%20in%20Total%20column.png?raw=true)
 
 ### <ins>Step 4. Missing Values</ins>
 #### <ins>Non-numeric Columns</ins>
@@ -135,6 +141,12 @@ Already filled in previous steps
    - Make Order_Date DATE column using DATE() function
    - **Problem 2:** Order_date in wrong format after being loaded from Power Query to Excel
    - **Solution 2:** I changed the locale to match the dd/mm/yyyy format
+   
+![image alt](https://github.com/Comp-coder-4/E-Commerce_Cleaning/blob/main/Imgs/Fixing%20Data%20Types/Order%20Date/1.%20Extracting%20Year%20from%20date%20(includes%20wrong%20years).png?raw=true)
+![image alt](https://github.com/Comp-coder-4/E-Commerce_Cleaning/blob/main/Imgs/Fixing%20Data%20Types/Order%20Date/2.%20Length%20of%20Year%20(to%20find%20which%20years%20to%20fix).png?raw=true)
+![image alt](https://github.com/Comp-coder-4/E-Commerce_Cleaning/blob/main/Imgs/Fixing%20Data%20Types/Order%20Date/3.%20Fixed%20Year%20Column.png?raw=true)
+![image alt](https://github.com/Comp-coder-4/E-Commerce_Cleaning/blob/main/Imgs/Fixing%20Data%20Types/Order%20Date/4.%20Fixed%20Order_date%20Column.png?raw=true)
+![image alt](https://github.com/Comp-coder-4/E-Commerce_Cleaning/blob/main/Imgs/Fixing%20Data%20Types/Order%20Date/5.%20Loaded%20order_dates.png?raw=true)
 
 3. Price
    - Round to 2 d.p.
