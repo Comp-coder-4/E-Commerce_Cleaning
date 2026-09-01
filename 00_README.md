@@ -2,9 +2,6 @@
 
 The dataset looks at E-Commerce transactions across categories of products. It gives details such as order status and amount spent in each transaction.
 
-______________________________________ 
-The data source provides a messy e-commerce sales table
-
 ## Business Objective: Identify and fix data quality issues to prepare dataset for reporting
 
 Tool Used: Excel
