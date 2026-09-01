@@ -7,8 +7,6 @@ The data source provides a messy e-commerce sales table
 
 ## Business Objective: Identify and fix data quality issues to prepare dataset for reporting
 
-The goal was to improve the data quality of the dataset.
-
 Tool Used: Excel
 
 Key Excel functions used:
